@@ -1,0 +1,13 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.environment": {
+        "QNX_SDP": "/opt/qnx650",
+        "QNX_TARGET": "/opt/qnx650/target/qnx6",
+        "QNX_HOST": "/opt/qnx650/host/linux/x86",
+    },
+    "cmake.configureArgs": ["--log-level=TRACE"],
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "QNX.cmake",
+        "BUILD_SHARED_LIBS": true
+    }
+}
